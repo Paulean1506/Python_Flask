@@ -31,7 +31,7 @@ The project structure is organized as follows:
 
 - app.py: Contains the Flask application routes and logic.
 - templates/: Folder containing HTML templates for different pages.
-- static/: Contains static files such as CSS, JavaScript, and images.
+- static/: Contains static files such as CSS, Gifs, and images.
 
 ### Usage Instructions:
 - app.py: Run this file to start the Flask server.
