@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Additional CSS for two-column layout */
+        .profile-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-text {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .profile-image {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-text">
+            <h1>Welcome to my Profile Page&#128131;</h1>
+            <p class="profile-description">
+                    I am passionate about leveraging technology to solve complex problems and drive innovation in the realm of computer engineering.
+                Experienced in various programming languages and algorithms, with a particular interest in data structures and their application in real-world scenarios.
+            </p>
+
+
+            <h2 class="section-header">Profile Information&#128172;</h2>
+            <ul>
+                <li><strong>Name:</strong> Paulean Marguerette F. Parrish</li>
+                <li><strong>Section:</strong> BSCPE 2-4</li>
+                <li><strong>Course:</strong> Computer Engineering</li>
+                <li><strong>Subject:</strong> Data Structures and Algorithm</li>
+            </ul>
+
+            <h2 class="section-header">My Interests &#128495;</h2>
+            <ul>
+                <li>&#128150; Passionate about music, theater, and books</li>
+                <li>&#127869; Exploring diverse cuisines and culinary experiences</li>
+                <li>&#128241; Enjoying strategic and mind boggling games</li>
+            </ul>
+
+            <h2 class="section-header">Programming Motto &#128434;</h2>
+            <p class="programming-motto">"Code your way to the future."</p>
+
+            <a href="http://127.0.0.1:5000/" class="button">Back to Homepage</a>
+        </div>
+        <div class="profile-image">
+            <img src="{{ url_for('static', filename='369268145_3093416997457415_2061227454963472355_n.jpg') }}" alt="Your Image">
+        </div>
+    </div>
+</body>
+</html>

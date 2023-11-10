@@ -1,0 +1,132 @@
+/* #Global styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-image: url("/static/images/desktop-1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headers */
+h1 {
+    background-color: #f542b3;
+    color: #ffffff;
+    padding: 20px;
+    margin: 3;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2.section-header {
+    display: inline-block;
+    background-color: #e305d5;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Links and Buttons */
+a.button,
+input.button {
+    display: inline-block;
+    background-color: #f70bb4;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a.button:hover,
+input.button:hover {
+    background-color: #7400b3de;
+}
+
+/* Profile description */
+p.profile-description {
+    font-style: italic;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+/* Programming Motto */
+p.programming-motto {
+    font-style: italic;
+    font-size: x-large;
+    text-align: justify;
+    color: #ffffff;
+}
+
+/* Form and Result Section */
+.input-container {
+    background-color: #e672b63e;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.2);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Contacts */
+.contacts-container {
+    background-color: #f78ccb4a;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+/* Profile Information and Likes */
+.profile-information-container, .likes-container {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Back to Homepage Button */
+.back-button-container {
+    text-align: left;
+}

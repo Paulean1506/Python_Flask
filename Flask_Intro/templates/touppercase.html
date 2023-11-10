@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert to Uppercase &#128288;</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Convert String to Uppercase </h1>
+    <div class="input-container">
+        <form action="/works" method="post">
+            <img src="/static/case-converter-lowercase-uppercase-text.gif" alt="My Image" class="my-image">
+            <label for="inputString">Enter a string:</label>
+            <input type="text" id="inputString" name="inputString">
+            <input type="submit" value="Convert" class="button">
+        </form>
+    </div>
+    {% if result %}
+    <div class="result">
+        <p class="converted-text">Converted string: {{ result }}</p>
+    </div>
+    {% endif %}
+
+    <div class="back-button-container">
+        <a href="http://127.0.0.1:5000/" class="button back-button">Back to Homepage</a>
+    </div>
+</body>
+</html>
